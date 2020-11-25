@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Projekt</title>
+    <link rel="stylesheet" href="./styl.css">
+</head>
+<body>
+    <div id="container">
+        <p class="opis">Generowanie ciągu arytmetycznego</p>
+        <form action="" name="formularz">
+            <div class="blok lewy">
+                <p>Pierwszy wyraz A1:</p>
+                <p>Różnica ciągu R:</p>
+                <p>Liczba wyrazów w ciągu N:</p>
+            </div>
+            <div class="blok prawy">
+                <input type="number" name="lb1" id="lb1" min=0><br>
+                <input type="number" name="lb2" id="lb2" min=1><br>
+                <input type="number" name="lb3" id="lb3" min=1>
+            </div>
+            <input type="submit" value="Generuj ciąg" id="btn">
+        </form>
+        <div id="wy">Ciąg arytmetyczny zawiera wyrazy:</div>
+    </div>
+    <!-- Skrypt JS-->
+    <script src="./skrypt.js"></script>
+</body>
+</html>
